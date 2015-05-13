@@ -4,9 +4,9 @@
 "       ty@msn.cn
 "
 " Description:
-" 	This vimrc is designed for vim and is based on the vimrc
-"	version created by  Amir Salihefendic and Ma Weiwei.
-"	The two version can by found as show in the following url
+" 	This vimrc file is designed for vim and is based on the vimrc
+"	version created by  Amir Salihefendic and Ma Weiwei, which 
+"	can ben found in the following url:
 "	http://www.cnblogs.com/ma6174/archive/2011/12/10/2283393.html
 "       http://amix.dk/vim/vimrc.html
 "
