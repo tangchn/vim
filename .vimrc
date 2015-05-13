@@ -12,7 +12,7 @@
 "	6. Ctrl + N: new tab 
 "	7. Syntax highlighting
 "	8. Auto-completion for []、{}、()、""、' ' 
-"	9. Insert header files automatiaclly, which contains authors, file name, creating time and so on. 
+"	9. Insert header files automatiaclly, which contains authors, file name, created time and so on. 
 "	...
 "	more functions are waiting to be uncovered.
 "
@@ -205,8 +205,8 @@ func SetTitle()
 		call setline(1,"\#########################################################################") 
 		call append(line("."), "\# File Name: ".expand("%")) 
 		call append(line(".")+1, "\# Author: Yves") 
-		call append(line(".")+2, "\# mail: ty@msn.cn") 
-		call append(line(".")+3, "\# Created Time: ".strftime("%Y-%m-%d. %I:%M:%S")) 
+		call append(line(".")+2, "\# E-mail: ty@msn.cn") 
+		call append(line(".")+3, "\# Created Time: ".strftime("%Y-%m-%d. %H:%M:%S")) 
 		call append(line(".")+4, "\#########################################################################") 
 		call append(line(".")+5, "\#!/bin/bash") 
 		call append(line(".")+6, "") 
@@ -214,8 +214,8 @@ func SetTitle()
 		call setline(1, "/*************************************************************************") 
 		call append(line("."), "	> File Name: ".expand("%")) 
 		call append(line(".")+1, "	> Author: Yves") 
-		call append(line(".")+2, "	> Mail: mail: ty@msn.cn") 
-		call append(line(".")+3, "	> Created Time: ".strftime("%Y-%m-%d. %I:%M:%S")) 
+		call append(line(".")+2, "	> E-mail: mail: ty@msn.cn") 
+		call append(line(".")+3, "	> Created Time: ".strftime("%Y-%m-%d. %H:%M:%S")) 
 		call append(line(".")+4, " ************************************************************************/") 
 		call append(line(".")+5, "")
 	endif
