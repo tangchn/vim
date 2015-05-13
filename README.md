@@ -1,9 +1,10 @@
 # .vimrc
-![Author: ](http://yves.qiniudn.com/188888atgmial.com.png)
+
 ## Declaration
 This vimrc file is developed for vim and it has several powerful features. Thanks to [Amir Salihefendic](http://amix.dk/vim/vimrc.html) and [Ma Weiwei](http://www.cnblogs.com/ma6174/archive/2011/12/10/2283393.html 
-), I referenced some interesting ideas from above and re-build a new one. 
-
+), I referenced some interesting ideas from above and re-build a new one.     
+Author: ![](http://yves.qiniudn.com/tyatmsn.cn1.png) **or** ![](http://yves.qiniudn.com/188888atgmial.com.png)   
+Date: May 13th.2015
 ## Supported functions
       1. F2: remove the blank line
       2. F3: list files in the current directory
