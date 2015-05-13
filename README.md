@@ -10,8 +10,8 @@ This vimrc file is developed for vim and it has several powerful features. Thank
       4. F8: debug the executable file
       5. Ctrl + P: code auto-completion
       6. Ctrl + N: new tab 
-      7. syntax highlighting
-      8. **insert header files automatiaclly**    
+      7. Syntax highlighting
+      8. Insert header files automatiaclly, which contains authors, file name, creating time and so on.   
       ...    
       more functions are waiting to be uncovered.
 
