@@ -2,7 +2,7 @@
 
 ## Declaration
 This vimrc file is developed for vim and it has several powerful features. Thanks to [Amir Salihefendic](http://amix.dk/vim/vimrc.html) and [Ma Weiwei](http://www.cnblogs.com/ma6174/archive/2011/12/10/2283393.html 
-), I referenced some interesting ideas from above and re-build a new one.     
+), I referenced some interesting ideas from above and re-built a new one.     
 **Please contact me if necessary:**   
 ![](http://yves.qiniudn.com/tyatmsn.cn.png)    
 ## Supported functions
