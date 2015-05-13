@@ -4,15 +4,15 @@
 "       ty@msn.cn
 "
 " Supported functions:
-"	1, F2: remove the blank line
-"	2, F3: list files in the current directory
-"	3, F5: compile the code file 
-"	4, F8: debug the executable file
-"	5, Ctrl + P: code auto-completion
-"	6, Ctrl + N: new tab 
-"	7, []、{}、()、""、' ' auto-completion
-"	8, syntax highlighting
-"	9, insert header files automatiaclly
+" 	1. F2: remove the blank line
+"	2. F3: list files in the current directory
+"	3. F5: compile the code file 
+"	4. F8: debug the executable file
+"	5. Ctrl + P: code auto-completion
+"	6. Ctrl + N: new tab 
+"	7. Syntax highlighting
+"	8. Auto-completion for []、{}、()、""、' ' 
+"	9. Insert header files automatiaclly, which contains authors, file name, creating time and so on. 
 "	...
 "	more functions are waiting to be uncovered.
 "
