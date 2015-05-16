@@ -203,35 +203,39 @@ autocmd BufNewFile *.cpp,*.[ch],*.sh,*.java exec ":call SetTitle()"
 func SetTitle() 
 	if &filetype == 'sh' 
 		call setline(1,"\#########################################################################") 
-		call append(line("."), "\# File Name: ".expand("%")) 
-		call append(line(".")+1, "\# Author: Yves") 
-		call append(line(".")+2, "\# E-mail: ty@msn.cn") 
-		call append(line(".")+3, "\# Created Time: ".strftime("%Y-%m-%d. %H:%M:%S")) 
-		call append(line(".")+4, "\#########################################################################") 
-		call append(line(".")+5, "\#!/bin/bash") 
-		call append(line(".")+6, "") 
+		call append(line("."), "\# Author: Yves") 
+		call append(line(".")+1, "\# E-mail: ty@msn.cn") 
+		call append(line(".")+2, "\# File Name: ".expand("%")) 
+		call append(line(".")+3, "\# Description: Yves")
+		call append(line(".")+4, "\# Created  Time: ".strftime("%Y-%m-%d. %H:%M:%S"))  
+		call append(line(".")+5, "\# Modified Time: ".strftime("%Y-%m-%d. %H:%M:%S"))
+		call append(line(".")+6, "\#########################################################################") 
+		call append(line(".")+7, "\#!/bin/bash") 
+		call append(line(".")+8, "") 
 	else 
 		call setline(1, "/*************************************************************************") 
-		call append(line("."), "	> File Name: ".expand("%")) 
-		call append(line(".")+1, "	> Author: Yves") 
-		call append(line(".")+2, "	> E-mail: ty@msn.cn") 
-		call append(line(".")+3, "	> Created Time: ".strftime("%Y-%m-%d. %H:%M:%S")) 
-		call append(line(".")+4, " ************************************************************************/") 
-		call append(line(".")+5, "")
+		call append(line("."), "	> Author: Yves") 
+		call append(line(".")+1, "	> E-mail: ty@msn.cn")
+		call append(line(".")+2, "	> File Name: ".expand("%")) 
+		call append(line(".")+3, "	> Description: ...")  
+		call append(line(".")+4, "	> Created  Time: ".strftime("%Y-%m-%d. %H:%M:%S")) 
+		call append(line(".")+5, "	> Modified Time: ".strftime("%Y-%m-%d. %H:%M:%S")) 
+		call append(line(".")+6, " ************************************************************************/") 
+		call append(line(".")+7, "")
 	endif
 	if &filetype == 'cpp'
-		call append(line(".")+6, "#include<iostream>")
-		call append(line(".")+7, "using namespace std;")
-		call append(line(".")+8, "")
+		call append(line(".")+9, "#include<iostream>")
+		call append(line(".")+10, "using namespace std;")
+		call append(line(".")+11, "")
 	endif
 	if &filetype == 'c'
-		call append(line(".")+6, "#include<stdio.h>")
-		call append(line(".")+7, "#include<stdlib.h>")
-		call append(line(".")+8, "")
+		call append(line(".")+8, "#include<stdio.h>")
+		call append(line(".")+9, "#include<stdlib.h>")
+		call append(line(".")+10, "")
 	endif
 	"	if &filetype == 'java'
-	"		call append(line(".")+6,"public class ".expand("%"))
-	"		call append(line(".")+7,"")
+	"		call append(line(".")+8,"public class ".expand("%"))
+	"		call append(line(".")+9,"")
 	"	endif
 	"move to the end of the file
 	autocmd BufNewFile * normal G
