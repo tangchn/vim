@@ -1,7 +1,7 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Author: 
 "       Yves Tang
-"       tangye@hotmail.com
+"       ty@msn.cn
 "
 " Supported functions:
 " 	1. F2: remove the blank line
@@ -204,7 +204,7 @@ func SetTitle()
 	if &filetype == 'sh' 
 		call setline(1,"\#########################################################################") 
 		call append(line("."), "\# Author: Yves") 
-		call append(line(".")+1, "\# E-mail: tangye@hotmail.com") 
+		call append(line(".")+1, "\# E-mail: tanngye@hotmail.com") 
 		call append(line(".")+2, "\# File Name: ".expand("%")) 
 		call append(line(".")+3, "\# Description: Yves")
 		call append(line(".")+4, "\# Created  Time: ".strftime("%Y-%m-%d. %H:%M:%S"))  
@@ -215,7 +215,7 @@ func SetTitle()
 	else 
 		call setline(1, "/*************************************************************************") 
 		call append(line("."), "	> Author: Yves") 
-		call append(line(".")+1, "	> E-mail: tangye@hotmail.com")
+		call append(line(".")+1, "	> E-mail: tanngye@hotmail.com")
 		call append(line(".")+2, "	> File Name: ".expand("%")) 
 		call append(line(".")+3, "	> Description: ...")  
 		call append(line(".")+4, "	> Created  Time: ".strftime("%Y-%m-%d. %H:%M:%S")) 
@@ -224,9 +224,9 @@ func SetTitle()
 		call append(line(".")+7, "")
 	endif
 	if &filetype == 'cpp'
-		call append(line(".")+9, "#include<iostream>")
-		call append(line(".")+10, "using namespace std;")
-		call append(line(".")+11, "")
+		call append(line(".")+8, "#include<iostream>")
+		call append(line(".")+9, "using namespace std;")
+		call append(line(".")+10, "")
 	endif
 	if &filetype == 'c'
 		call append(line(".")+8, "#include<stdio.h>")
