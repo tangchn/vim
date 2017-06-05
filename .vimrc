@@ -1,7 +1,7 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Author: 
 "       Yves Tang
-"       ty@msn.cn
+"       188888@gmail.com
 "
 " Supported functions:
 " 	1. F2: remove the blank line
